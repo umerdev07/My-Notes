@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Login App Firebase</string>
+    <string name="Welome">Wel</string>
+    <string name="come">come</string>
+    <string name="sign_in">Sign-In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="do_you_forget_your_password">Do you forget your password ?</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="your_e_mail">Your E-mail</string>
+    <string name="re_password">Re-Password</string>
+    <string name="register">Register</string>
+    <string name="hello_i_am_home_page">Hello I am Home Page</string>
+    <string name="hello_i_am_home_page_and_i_am_already_login">Hello I am Home Page and I am already login</string>
+    <string name="logout">logout</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+</resources>

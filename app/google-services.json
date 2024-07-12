@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "94325085185",
+    "project_id": "login-app-firebase-fe7b7",
+    "storage_bucket": "login-app-firebase-fe7b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94325085185:android:249558e08c2594184d9c00",
+        "android_client_info": {
+          "package_name": "com.maths.loginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi9QQlU6_b9lADMd0iLYK5_ZyzakdtQB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

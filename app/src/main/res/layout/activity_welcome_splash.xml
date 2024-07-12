@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeSplash">
+
+    <TextView
+        android:id="@+id/come"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:padding="10dp"
+        android:text="@string/come"
+        android:textColor="@color/red"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:padding="10dp"
+        android:text="@string/Welome"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="472dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/welcomedesignredcircle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="503dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/welcomedesignblackcircle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/come" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="131dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/welcomedesignblackcircle"
+        app:layout_constraintBottom_toTopOf="@+id/wel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/welcomedesignredcircle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/come" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
