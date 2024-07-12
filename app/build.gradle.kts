@@ -41,8 +41,6 @@
 
     dependencies {
 
-        implementation ("com.github.ybq:Android-SpinKit:1.4.0")
-
         // Import the BoM for the Firebase platform
         implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
 
