@@ -26,12 +26,12 @@ class WelcomeSplash : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             val currentUser: FirebaseUser? = auth.currentUser
-            if (currentUser != null) {
+            if (currentUser == null) {
                 // User is logged in, navigate to MainActivity
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, Log_inActivity::class.java))
             } else {
                 // User is not logged in, navigate to LoginActivity
-                startActivity(Intent(this, Log_inActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
             }
             finish() // Close the WelcomeSplash activity
         }, 3000) // Delay for 3 seconds

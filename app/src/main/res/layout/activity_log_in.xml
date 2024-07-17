@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:paddingLeft="50dp"
+        android:paddingStart="50dp"
         android:text="@string/do_you_forget_your_password"
         android:textColor="@color/black"
         android:textSize="14sp"

@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">Login App Firebase</string>
-    <string name="Welome">Wel</string>
-    <string name="come">come</string>
+    <string name="app_name">My Notes</string>
     <string name="sign_in">Sign-In</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
@@ -11,8 +9,14 @@
     <string name="your_e_mail">Your E-mail</string>
     <string name="re_password">Re-Password</string>
     <string name="register">Register</string>
-    <string name="hello_i_am_home_page">Hello I am Home Page</string>
-    <string name="hello_i_am_home_page_and_i_am_already_login">Hello I am Home Page and I am already login</string>
-    <string name="logout">logout</string>
     <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="log_out">Log Out</string>
+    <string name="update_note">Update Note:</string>
+    <string name="my">My</string>
+    <string name="notes">Notes</string>
+    <string name="plain_your_life">Plain Your Life</string>
+    <string name="my_notes">My Notes</string>
+    <string name="no_notes">No Notes</string>
 </resources>
