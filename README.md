@@ -65,8 +65,25 @@ The My-Todo app is an Android application that allows users to create, view, upd
 - Click the "Menu" button, select "Language", and choose your preferred language.
 
 ## Screenshots
+![IMG-20240804-WA0007](https://github.com/user-attachments/assets/5e63aa0e-d95f-40b7-b7d5-95d55156e825)    ![IMG-20240804-WA0005](https://github.com/user-attachments/assets/ed4dcafb-30d9-4529-8fb6-4bc9c2d84e8b)      ![IMG-20240804-WA0008](https://github.com/user-attachments/assets/57ab0414-c08d-4688-89a7-643e3b39ebce)   ![IMG-20240804-WA0006](https://github.com/user-attachments/assets/5e7918f1-422a-4554-b81b-0d5566d424cf) ![IMG-20240804-WA0009](https://github.com/user-attachments/assets/3bfd0b32-1266-4660-b094-e696e640eab0)  ![IMG-20240804-WA0010](https://github.com/user-attachments/assets/98c82d6b-bb76-4eca-afa1-0f23aae605b5) 
 
-Include screenshots of the app here.
+![IMG-20240804-WA0011](https://github.com/user-attachments/assets/bcd58c49-c8a5-4823-b10e-df263d501d38)  ![IMG-20240804-WA0012](https://github.com/user-attachments/assets/311e767a-385c-4c9b-a239-912b03e23ce4)   ![IMG-20240804-WA0013](https://github.com/user-attachments/assets/72a4b076-0021-4831-ae81-47ee8b89ade3)   ![IMG-20240804-WA0014](https://github.com/user-attachments/assets/7ecdd37e-67d1-472f-bd87-f1b90eaba1b9)   ![IMG-20240804-WA0015](https://github.com/user-attachments/assets/b8f5ada8-52ea-448d-8d7c-6114e8a29066)   ![IMG-20240804-WA0016](https://github.com/user-attachments/assets/2e0cc81f-b6a7-4085-9174-2501d2df3df3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Contributing
 
