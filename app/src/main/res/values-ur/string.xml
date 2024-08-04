@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">میرے کام</string>
+    <string name="sign_in">سائن ان کریں</string>
+    <string name="username">صارف نام</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="do_you_forget_your_password">کیا آپ اپنا پاس ورڈ بھول گئے ہیں؟</string>
+    <string name="login">لاگ ان کریں</string>
+    <string name="sign_up">سائن اپ کریں</string>
+    <string name="your_e_mail">آپ کا ای میل</string>
+    <string name="re_password">پاس ورڈ دوبارہ لکھیں</string>
+    <string name="register">رجسٹر کریں</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">عنوان</string>
+    <string name="description">تفصیل</string>
+    <string name="log_out">لاگ آؤٹ</string>
+    <string name="update_note">نوٹ اپ ڈیٹ کریں:</string>
+    <string name="my">میرا</string>
+    <string name="notes">کام</string>
+    <string name="plain_your_life">اپنی زندگی کی منصوبہ بندی کریں</string>
+    <string name="my_notes">میرے کام</string>
+    <string name="no_notes">کوئی کام نہیں</string>
+    <string name="search_notes">کام تلاش کریں</string>
+    <string name="search_note">کام تلاش کریں...</string>
+    <string name="languages">زبانیں</string>
+    <string name="country">ملک</string>
+    <string name="symbol">علامت</string>
+    <string name="choose_language">زبان کا انتخاب کریں</string>
+    <string name="please_fill_the_details" translatable="false">براہ کرم تفصیلات پُر کریں</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">لاگ ان کرنے میں ناکام کیونکہ آپ رجسٹرڈ نہیں ہیں: %1$s</string>
+    <string name="login_successfully" translatable="false">لاگ ان کامیاب ہوا</string>
+    <string name="ok" translatable="false">ٹھیک ہے</string>
+    <string name="login_failed" translatable="false">لاگ ان ناکام: %1$s</string>
+    <string name="failed" translatable="false">ناکام</string>
+    <string name="users" translatable="false">صارفین</string>
+    <string name="notess" translatable="false">کام</string>
+    <string name="failed_to_load_notes" translatable="false">کام لوڈ کرنے میں ناکام</string>
+    <string name="confirm_deletion" translatable="false">حذف کی تصدیق کریں</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">کیا آپ اس کام کو حذف کرنا چاہتے ہیں؟</string>
+    <string name="delete" translatable="false">حذف کریں</string>
+    <string name="note_deleted_successfully" translatable="false">کام کامیابی سے حذف ہوا</string>
+    <string name="failed_to_delete_note" translatable="false">کام حذف کرنے میں ناکام</string>
+    <string name="note_does_not_exist" translatable="false">کام موجود نہیں ہے</string>
+    <string name="failed_to_fetch_note_details" translatable="false">کام کی تفصیلات حاصل کرنے میں ناکام</string>
+    <string name="update_notes" translatable="false">کام کو اپ ڈیٹ کریں</string>
+    <string name="update" translatable="false">اپ ڈیٹ کریں</string>
+    <string name="note_addition_failed" translatable="false">کام کا اضافہ ناکام ہوا</string>
+    <string name="note_added_successfully" translatable="false">کام کامیابی سے شامل ہوا</string>
+    <string name="fill_all_fields" translatable="false">تمام خانوں کو پُر کریں</string>
+    <string name="cancel" translatable="false">منسوخ کریں</string>
+    <string name="create" translatable="false">بنائیں</string>
+    <string name="create_notes" translatable="false">کام بنائیں</string>
+    <string name="note_update_failed" translatable="false">کام اپ ڈیٹ ناکام ہوا</string>
+    <string name="note_update_successfully" translatable="false">کام کامیابی سے اپ ڈیٹ ہوا</string>
+    <string name="share_via" translatable="false">کے ذریعے شیئر کریں</string>
+    <string name="share_content" translatable="false">کام کی آئی ڈی: %1$s\nعنوان: %2$s\nتفصیل: %3$s</string>
+    <string name="no" translatable="false">نہیں</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">کچھ خانے خالی ہیں، براہ کرم انہیں پُر کریں!</string>
+    <string name="both_password_must_be_same" translatable="false">دونوں پاس ورڈ ایک جیسے ہونے چاہئیں</string>
+    <string name="register_successfully" translatable="false">رجسٹریشن کامیاب</string>
+    <string name="registration_failed" translatable="false">رجسٹریشن ناکام: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">کیا آپ لاگ آؤٹ کرنا چاہتے ہیں؟</string>
+    <string name="yes" translatable="false">جی ہاں</string>
+</resources>

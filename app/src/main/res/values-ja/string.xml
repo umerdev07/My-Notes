@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">マイタスク</string>
+    <string name="sign_in">サインイン</string>
+    <string name="username">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="do_you_forget_your_password">パスワードを忘れましたか？</string>
+    <string name="login">ログイン</string>
+    <string name="sign_up">サインアップ</string>
+    <string name="your_e_mail">あなたのメール</string>
+    <string name="re_password">パスワードを再入力</string>
+    <string name="register">登録</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">タイトル</string>
+    <string name="description">説明</string>
+    <string name="log_out">ログアウト</string>
+    <string name="update_note">メモを更新：</string>
+    <string name="my">マイ</string>
+    <string name="notes">タスク</string>
+    <string name="plain_your_life">あなたの人生を計画する</string>
+    <string name="my_notes">マイタスク</string>
+    <string name="no_notes">タスクがありません</string>
+    <string name="search_notes">タスクを検索</string>
+    <string name="search_note">タスクを検索...</string>
+    <string name="languages">言語</string>
+    <string name="country">国</string>
+    <string name="symbol">シンボル</string>
+    <string name="choose_language">言語を選択</string>
+    <string name="please_fill_the_details" translatable="false">詳細を入力してください</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">登録されていないため、ログインに失敗しました: %1$s</string>
+    <string name="login_successfully" translatable="false">ログイン成功</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="login_failed" translatable="false">ログイン失敗: %1$s</string>
+    <string name="failed" translatable="false">失敗</string>
+    <string name="users" translatable="false">ユーザー</string>
+    <string name="notess" translatable="false">メモ</string>
+    <string name="failed_to_load_notes" translatable="false">タスクの読み込みに失敗しました。</string>
+    <string name="confirm_deletion" translatable="false">削除の確認</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">このタスクを削除しますか？</string>
+    <string name="delete" translatable="false">削除</string>
+    <string name="note_deleted_successfully" translatable="false">タスクが正常に削除されました</string>
+    <string name="failed_to_delete_note" translatable="false">タスクの削除に失敗しました。</string>
+    <string name="note_does_not_exist" translatable="false">タスクは存在しません。</string>
+    <string name="failed_to_fetch_note_details" translatable="false">タスクの詳細を取得できませんでした。</string>
+    <string name="update_notes" translatable="false">タスクを更新する</string>
+    <string name="update" translatable="false">更新</string>
+    <string name="note_addition_failed" translatable="false">タスクの追加に失敗しました</string>
+    <string name="note_added_successfully" translatable="false">タスクが正常に追加されました</string>
+    <string name="fill_all_fields" translatable="false">すべてのフィールドに入力してください</string>
+    <string name="cancel" translatable="false">キャンセル</string>
+    <string name="create" translatable="false">作成</string>
+    <string name="create_notes" translatable="false">タスクを作成</string>
+    <string name="note_update_failed" translatable="false">タスクの更新に失敗しました</string>
+    <string name="note_update_successfully" translatable="false">タスクが正常に更新されました</string>
+    <string name="share_via" translatable="false">共有方法</string>
+    <string name="share_content" translatable="false">タスクID: %1$s\nタイトル: %2$s\n説明: %3$s</string>
+    <string name="no" translatable="false">いいえ</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">いくつかのフィールドが空です。入力してください！</string>
+    <string name="both_password_must_be_same" translatable="false">両方のパスワードは同じでなければなりません</string>
+    <string name="register_successfully" translatable="false">正常に登録されました</string>
+    <string name="registration_failed" translatable="false">登録に失敗しました: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">ログアウトしますか？</string>
+    <string name="yes" translatable="false">はい</string>
+</resources>

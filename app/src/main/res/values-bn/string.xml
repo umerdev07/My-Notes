@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">আমার টুডুলিস্ট</string>
+    <string name="sign_in">সাইন ইন</string>
+    <string name="username">ব্যবহারকারীর নাম</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="do_you_forget_your_password">আপনি কি পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="login">লগইন</string>
+    <string name="sign_up">নিবন্ধন</string>
+    <string name="your_e_mail">আপনার ইমেল</string>
+    <string name="re_password">পাসওয়ার্ড পুনরায় লিখুন</string>
+    <string name="register">নিবন্ধন</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">শিরোনাম</string>
+    <string name="description">বিবরণ</string>
+    <string name="log_out">লগআউট</string>
+    <string name="update_note">নোট আপডেট করুন:</string>
+    <string name="my">আমার</string>
+    <string name="notes">টুডুলিস্ট</string>
+    <string name="plain_your_life">আপনার জীবন পরিকল্পনা করুন</string>
+    <string name="my_notes">আমার টুডুলিস্ট</string>
+    <string name="no_notes">কোনো টুডুলিস্ট নেই</string>
+    <string name="search_notes">টুডুলিস্ট খুঁজুন</string>
+    <string name="search_note">টুডুলিস্ট খুঁজুন...</string>
+    <string name="languages">ভাষা</string>
+    <string name="country">দেশ</string>
+    <string name="symbol">প্রতীক</string>
+    <string name="choose_language">ভাষা নির্বাচন করুন</string>
+    <string name="please_fill_the_details" translatable="false">বিস্তারিত পূরণ করুন</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">লগইন ব্যর্থ হয়েছে কারণ আপনি নিবন্ধিত নন: %1$s</string>
+    <string name="login_successfully" translatable="false">সফলভাবে লগইন হয়েছে</string>
+    <string name="ok" translatable="false">ঠিক আছে</string>
+    <string name="login_failed" translatable="false">লগইন ব্যর্থ: %1$s</string>
+    <string name="failed" translatable="false">ব্যর্থ</string>
+    <string name="users" translatable="false">ব্যবহারকারী</string>
+    <string name="notess" translatable="false">টুডুলিস্ট</string>
+    <string name="failed_to_load_notes" translatable="false">টুডুলিস্ট লোড করতে ব্যর্থ হয়েছে।</string>
+    <string name="confirm_deletion" translatable="false">মুছে ফেলার নিশ্চিতকরণ</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">আপনি কি এই টুডুলিস্ট মুছে ফেলতে চান?</string>
+    <string name="delete" translatable="false">মুছে ফেলুন</string>
+    <string name="note_deleted_successfully" translatable="false">টুডুলিস্ট সফলভাবে মুছে ফেলা হয়েছে</string>
+    <string name="failed_to_delete_note" translatable="false">টুডুলিস্ট মুছে ফেলতে ব্যর্থ হয়েছে।</string>
+    <string name="note_does_not_exist" translatable="false">টুডুলিস্ট বিদ্যমান নেই।</string>
+    <string name="failed_to_fetch_note_details" translatable="false">টুডুলিস্টের বিস্তারিত আনতে ব্যর্থ হয়েছে।</string>
+    <string name="update_notes" translatable="false">টুডুলিস্ট আপডেট করুন</string>
+    <string name="update" translatable="false">আপডেট করুন</string>
+    <string name="note_addition_failed" translatable="false">টুডুলিস্ট যোগ ব্যর্থ হয়েছে</string>
+    <string name="note_added_successfully" translatable="false">টুডুলিস্ট সফলভাবে যোগ করা হয়েছে</string>
+    <string name="fill_all_fields" translatable="false">সমস্ত ক্ষেত্র পূরণ করুন</string>
+    <string name="cancel" translatable="false">বাতিল করুন</string>
+    <string name="create" translatable="false">তৈরি করুন</string>
+    <string name="create_notes" translatable="false">টুডুলিস্ট তৈরি করুন</string>
+    <string name="note_update_failed" translatable="false">টুডুলিস্ট আপডেট ব্যর্থ হয়েছে</string>
+    <string name="note_update_successfully" translatable="false">টুডুলিস্ট সফলভাবে আপডেট হয়েছে</string>
+    <string name="share_via" translatable="false">মাধ্যমে শেয়ার করুন</string>
+    <string name="share_content" translatable="false">টুডুলিস্ট আইডি: %1$s\nশিরোনাম: %2$s\nবিবরণ: %3$s</string>
+    <string name="no" translatable="false">না</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">কিছু ক্ষেত্র খালি, অনুগ্রহ করে পূরণ করুন!</string>
+    <string name="both_password_must_be_same" translatable="false">উভয় পাসওয়ার্ড একই হতে হবে</string>
+    <string name="register_successfully" translatable="false">সফলভাবে নিবন্ধন হয়েছে</string>
+    <string name="registration_failed" translatable="false">নিবন্ধন ব্যর্থ: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">আপনি কি লগ আউট করতে চান?</string>
+    <string name="yes" translatable="false">হ্যাঁ</string>
+</resources>

@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">मेरे टूडूज</string>
+    <string name="sign_in">साइन इन</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="password">पासवर्ड</string>
+    <string name="do_you_forget_your_password">क्या आप अपना पासवर्ड भूल गए?</string>
+    <string name="login">लॉगिन</string>
+    <string name="sign_up">साइन अप</string>
+    <string name="your_e_mail">आपका ई-मेल</string>
+    <string name="re_password">पासवर्ड दोबारा डालें</string>
+    <string name="register">रजिस्टर</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">शीर्षक</string>
+    <string name="description">विवरण</string>
+    <string name="log_out">लॉग आउट</string>
+    <string name="update_note">नोट अपडेट करें:</string>
+    <string name="my">मेरा</string>
+    <string name="notes">टूडूज</string>
+    <string name="plain_your_life">अपनी ज़िन्दगी को योजनाबद्ध करें</string>
+    <string name="my_notes">मेरे टूडूज</string>
+    <string name="no_notes">कोई टूडूज नहीं</string>
+    <string name="search_notes">टूडूज खोजें</string>
+    <string name="search_note">टूडूज खोजें...</string>
+    <string name="languages">भाषाएँ</string>
+    <string name="country">देश</string>
+    <string name="symbol">प्रतीक</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="please_fill_the_details" translatable="false">कृपया विवरण भरें</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">लॉगिन विफल क्योंकि आप पंजीकृत नहीं हैं: %1$s</string>
+    <string name="login_successfully" translatable="false">सफलतापूर्वक लॉगिन</string>
+    <string name="ok" translatable="false">ठीक है</string>
+    <string name="login_failed" translatable="false">लॉगिन विफल: %1$s</string>
+    <string name="failed" translatable="false">विफल</string>
+    <string name="users" translatable="false">उपयोगकर्ता</string>
+    <string name="notess" translatable="false">नोट्स</string>
+    <string name="failed_to_load_notes" translatable="false">टूडूज लोड करने में विफल।</string>
+    <string name="confirm_deletion" translatable="false">हटाने की पुष्टि करें</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">क्या आप इस टूडू को हटाना चाहते हैं?</string>
+    <string name="delete" translatable="false">हटाएं</string>
+    <string name="note_deleted_successfully" translatable="false">टूडू सफलतापूर्वक हटा दिया गया</string>
+    <string name="failed_to_delete_note" translatable="false">टूडू हटाने में विफल।</string>
+    <string name="note_does_not_exist" translatable="false">टूडू मौजूद नहीं है।</string>
+    <string name="failed_to_fetch_note_details" translatable="false">टूडू विवरण प्राप्त करने में विफल।</string>
+    <string name="update_notes" translatable="false">टूडू अपडेट करें</string>
+    <string name="update" translatable="false">अपडेट करें</string>
+    <string name="note_addition_failed" translatable="false">टूडू जोड़ने में विफल</string>
+    <string name="note_added_successfully" translatable="false">टूडू सफलतापूर्वक जोड़ा गया</string>
+    <string name="fill_all_fields" translatable="false">सभी फ़ील्ड भरें</string>
+    <string name="cancel" translatable="false">रद्द करें</string>
+    <string name="create" translatable="false">बनाएं</string>
+    <string name="create_notes" translatable="false">टूडू बनाएं</string>
+    <string name="note_update_failed" translatable="false">टूडू अपडेट करने में विफल</string>
+    <string name="note_update_successfully" translatable="false">टूडू सफलतापूर्वक अपडेट किया गया</string>
+    <string name="share_via" translatable="false">शेयर करें</string>
+    <string name="share_content" translatable="false">टूडू आईडी: %1$s\nशीर्षक: %2$s\nविवरण: %3$s</string>
+    <string name="no" translatable="false">नहीं</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">कुछ फ़ील्ड खाली हैं, कृपया भरें!</string>
+    <string name="both_password_must_be_same" translatable="false">दोनों पासवर्ड समान होना चाहिए</string>
+    <string name="register_successfully" translatable="false">सफलतापूर्वक पंजीकृत</string>
+    <string name="registration_failed" translatable="false">पंजीकरण विफल: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">क्या आप लॉगआउट करना चाहते हैं?</string>
+    <string name="yes" translatable="false">हाँ</string>
+</resources>

@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Minhas Tarefas</string>
+    <string name="sign_in">Entrar</string>
+    <string name="username">Nome de usuário</string>
+    <string name="password">Senha</string>
+    <string name="do_you_forget_your_password">Esqueceu sua senha?</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Cadastrar</string>
+    <string name="your_e_mail">Seu e-mail</string>
+    <string name="re_password">Repetir senha</string>
+    <string name="register">Registrar</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">Título</string>
+    <string name="description">Descrição</string>
+    <string name="log_out">Sair</string>
+    <string name="update_note">Atualizar Nota:</string>
+    <string name="my">Meu</string>
+    <string name="notes">Tarefas</string>
+    <string name="plain_your_life">Planeje sua vida</string>
+    <string name="my_notes">Minhas Tarefas</string>
+    <string name="no_notes">Sem Tarefas</string>
+    <string name="search_notes">Buscar tarefas</string>
+    <string name="search_note">Buscar tarefas...</string>
+    <string name="languages">Idiomas</string>
+    <string name="country">País</string>
+    <string name="symbol">Símbolo</string>
+    <string name="choose_language">Escolha o idioma</string>
+    <string name="please_fill_the_details" translatable="false">Preencha os detalhes</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">Falha ao fazer login porque você não está registrado: %1$s</string>
+    <string name="login_successfully" translatable="false">Login bem-sucedido</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="login_failed" translatable="false">Falha no login: %1$s</string>
+    <string name="failed" translatable="false">Falha</string>
+    <string name="users" translatable="false">usuários</string>
+    <string name="notess" translatable="false">notas</string>
+    <string name="failed_to_load_notes" translatable="false">Falha ao carregar tarefas.</string>
+    <string name="confirm_deletion" translatable="false">Confirmar exclusão</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">Você deseja excluir esta tarefa?</string>
+    <string name="delete" translatable="false">Excluir</string>
+    <string name="note_deleted_successfully" translatable="false">Tarefa excluída com sucesso</string>
+    <string name="failed_to_delete_note" translatable="false">Falha ao excluir a tarefa.</string>
+    <string name="note_does_not_exist" translatable="false">Tarefa não existe.</string>
+    <string name="failed_to_fetch_note_details" translatable="false">Falha ao buscar detalhes da tarefa.</string>
+    <string name="update_notes" translatable="false">Atualizar tarefa</string>
+    <string name="update" translatable="false">Atualizar</string>
+    <string name="note_addition_failed" translatable="false">Falha ao adicionar tarefa</string>
+    <string name="note_added_successfully" translatable="false">Tarefa adicionada com sucesso</string>
+    <string name="fill_all_fields" translatable="false">Preencha todos os campos</string>
+    <string name="cancel" translatable="false">Cancelar</string>
+    <string name="create" translatable="false">Criar</string>
+    <string name="create_notes" translatable="false">Criar Tarefa</string>
+    <string name="note_update_failed" translatable="false">Falha ao atualizar tarefa</string>
+    <string name="note_update_successfully" translatable="false">Tarefa atualizada com sucesso</string>
+    <string name="share_via" translatable="false">Compartilhar via</string>
+    <string name="share_content" translatable="false">ID da tarefa: %1$s\nTítulo: %2$s\nDescrição: %3$s</string>
+    <string name="no" translatable="false">Não</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">Alguns campos estão vazios, por favor preencha!</string>
+    <string name="both_password_must_be_same" translatable="false">As duas senhas devem ser iguais</string>
+    <string name="register_successfully" translatable="false">Registro bem-sucedido</string>
+    <string name="registration_failed" translatable="false">Falha no registro: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">Você deseja sair?</string>
+    <string name="yes" translatable="false">Sim</string>
+</resources>

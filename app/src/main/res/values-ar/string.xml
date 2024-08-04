@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">مهامي</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="do_you_forget_your_password">هل نسيت كلمة المرور؟</string>
+    <string name="login">دخول</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="your_e_mail">بريدك الإلكتروني</string>
+    <string name="re_password">تأكيد كلمة المرور</string>
+    <string name="register">تسجيل</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">عنوان</string>
+    <string name="description">وصف</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="update_note">تحديث الملاحظة:</string>
+    <string name="my">خاصتي</string>
+    <string name="notes">مهام</string>
+    <string name="plain_your_life">خطط حياتك</string>
+    <string name="my_notes">مهامي</string>
+    <string name="no_notes">لا توجد مهام</string>
+    <string name="search_notes">بحث عن مهام</string>
+    <string name="search_note">بحث عن مهام...</string>
+    <string name="languages">اللغات</string>
+    <string name="country">البلد</string>
+    <string name="symbol">رمز</string>
+    <string name="choose_language">اختر اللغة</string>
+    <string name="please_fill_the_details" translatable="false">يرجى ملء التفاصيل</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">فشل تسجيل الدخول لأنك غير مسجل: %1$s</string>
+    <string name="login_successfully" translatable="false">تم تسجيل الدخول بنجاح</string>
+    <string name="ok" translatable="false">حسنًا</string>
+    <string name="login_failed" translatable="false">فشل تسجيل الدخول: %1$s</string>
+    <string name="failed" translatable="false">فشل</string>
+    <string name="users" translatable="false">المستخدمين</string>
+    <string name="notess" translatable="false">المهام</string>
+    <string name="failed_to_load_notes" translatable="false">فشل في تحميل المهام.</string>
+    <string name="confirm_deletion" translatable="false">تأكيد الحذف</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">هل تريد حذف هذه المهمة؟</string>
+    <string name="delete" translatable="false">حذف</string>
+    <string name="note_deleted_successfully" translatable="false">تم حذف المهمة بنجاح</string>
+    <string name="failed_to_delete_note" translatable="false">فشل في حذف المهمة.</string>
+    <string name="note_does_not_exist" translatable="false">المهمة غير موجودة.</string>
+    <string name="failed_to_fetch_note_details" translatable="false">فشل في جلب تفاصيل المهمة.</string>
+    <string name="update_notes" translatable="false">تحديث المهام</string>
+    <string name="update" translatable="false">تحديث</string>
+    <string name="note_addition_failed" translatable="false">فشل في إضافة المهمة</string>
+    <string name="note_added_successfully" translatable="false">تمت إضافة المهمة بنجاح</string>
+    <string name="fill_all_fields" translatable="false">يرجى ملء جميع الحقول</string>
+    <string name="cancel" translatable="false">إلغاء</string>
+    <string name="create" translatable="false">إنشاء</string>
+    <string name="create_notes" translatable="false">إنشاء مهمة</string>
+    <string name="note_update_failed" translatable="false">فشل في تحديث المهمة</string>
+    <string name="note_update_successfully" translatable="false">تم تحديث المهمة بنجاح</string>
+    <string name="share_via" translatable="false">مشاركة عبر</string>
+    <string name="share_content" translatable="false">معرّف المهمة: %1$s\nالعنوان: %2$s\nالوصف: %3$s</string>
+    <string name="no" translatable="false">لا</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">بعض الحقول فارغة، يرجى ملؤها!</string>
+    <string name="both_password_must_be_same" translatable="false">يجب أن تكون كلمتا المرور متطابقتين</string>
+    <string name="register_successfully" translatable="false">تم التسجيل بنجاح</string>
+    <string name="registration_failed" translatable="false">فشل التسجيل: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">هل تريد تسجيل الخروج؟</string>
+    <string name="yes" translatable="false">نعم</string>
+</resources>

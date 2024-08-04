@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">我的待办事项</string>
+    <string name="sign_in">登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="do_you_forget_your_password">您忘记密码了吗？</string>
+    <string name="login">登录</string>
+    <string name="sign_up">注册</string>
+    <string name="your_e_mail">您的邮箱</string>
+    <string name="re_password">确认密码</string>
+    <string name="register">注册</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">标题</string>
+    <string name="description">描述</string>
+    <string name="log_out">登出</string>
+    <string name="update_note">更新笔记：</string>
+    <string name="my">我的</string>
+    <string name="notes">待办事项</string>
+    <string name="plain_your_life">计划你的生活</string>
+    <string name="my_notes">我的待办事项</string>
+    <string name="no_notes">没有待办事项</string>
+    <string name="search_notes">搜索待办事项</string>
+    <string name="search_note">搜索待办事项...</string>
+    <string name="languages">语言</string>
+    <string name="country">国家</string>
+    <string name="symbol">符号</string>
+    <string name="choose_language">选择语言</string>
+    <string name="please_fill_the_details" translatable="false">请填写详细信息</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">登录失败，因为您未注册：%1$s</string>
+    <string name="login_successfully" translatable="false">登录成功</string>
+    <string name="ok" translatable="false">确定</string>
+    <string name="login_failed" translatable="false">登录失败：%1$s</string>
+    <string name="failed" translatable="false">失败</string>
+    <string name="users" translatable="false">用户</string>
+    <string name="notess" translatable="false">待办事项</string>
+    <string name="failed_to_load_notes" translatable="false">加载待办事项失败</string>
+    <string name="confirm_deletion" translatable="false">确认删除</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">您确定要删除此待办事项吗？</string>
+    <string name="delete" translatable="false">删除</string>
+    <string name="note_deleted_successfully" translatable="false">待办事项已成功删除</string>
+    <string name="failed_to_delete_note" translatable="false">删除待办事项失败</string>
+    <string name="note_does_not_exist" translatable="false">待办事项不存在</string>
+    <string name="failed_to_fetch_note_details" translatable="false">获取待办事项详情失败</string>
+    <string name="update_notes" translatable="false">更新待办事项</string>
+    <string name="update" translatable="false">更新</string>
+    <string name="note_addition_failed" translatable="false">添加待办事项失败</string>
+    <string name="note_added_successfully" translatable="false">待办事项已成功添加</string>
+    <string name="fill_all_fields" translatable="false">请填写所有字段</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="create" translatable="false">创建</string>
+    <string name="create_notes" translatable="false">创建待办事项</string>
+    <string name="note_update_failed" translatable="false">更新待办事项失败</string>
+    <string name="note_update_successfully" translatable="false">待办事项已成功更新</string>
+    <string name="share_via" translatable="false">通过分享</string>
+    <string name="share_content" translatable="false">待办事项ID：%1$s\n标题：%2$s\n描述：%3$s</string>
+    <string name="no" translatable="false">否</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">有些字段为空，请填写！</string>
+    <string name="both_password_must_be_same" translatable="false">两个密码必须相同</string>
+    <string name="register_successfully" translatable="false">注册成功</string>
+    <string name="registration_failed" translatable="false">注册失败：%1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">您确定要登出吗？</string>
+    <string name="yes" translatable="false">是</string>
+</resources>

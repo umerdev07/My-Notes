@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ਮੇਰੇ ਕੰਮ</string>
+    <string name="sign_in">ਸਾਈਨ-ਇਨ</string>
+    <string name="username">ਉਪਭੋਗਤਾ ਨਾਮ</string>
+    <string name="password">ਪਾਸਵਰਡ</string>
+    <string name="do_you_forget_your_password">ਕੀ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?</string>
+    <string name="login">ਲਾਗਿਨ</string>
+    <string name="sign_up">ਰਜਿਸਟਰ</string>
+    <string name="your_e_mail">ਤੁਹਾਡਾ ਈ-ਮੇਲ</string>
+    <string name="re_password">ਪਾਸਵਰਡ ਪੁਨਰ ਲਿਖੋ</string>
+    <string name="register">ਰਜਿਸਟਰ</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">ਸ਼ੀਰਸ਼ਕ</string>
+    <string name="description">ਵੇਰਵਾ</string>
+    <string name="log_out">ਲਾਗ ਆਊਟ</string>
+    <string name="update_note">ਨੋਟ ਅਪਡੇਟ ਕਰੋ:</string>
+    <string name="my">ਮੇਰਾ</string>
+    <string name="notes">ਕੰਮ</string>
+    <string name="plain_your_life">ਆਪਣੀ ਜ਼ਿੰਦਗੀ ਦਾ ਯੋਜਨਾਬੱਧ</string>
+    <string name="my_notes">ਮੇਰੇ ਕੰਮ</string>
+    <string name="no_notes">ਕੋਈ ਕੰਮ ਨਹੀਂ ਹੈ</string>
+    <string name="search_notes">ਕੰਮ ਖੋਜੋ</string>
+    <string name="search_note">ਕੰਮ ਖੋਜੋ...</string>
+    <string name="languages">ਭਾਸ਼ਾਵਾਂ</string>
+    <string name="country">ਦੇਸ਼</string>
+    <string name="symbol">ਨਿਸ਼ਾਨ</string>
+    <string name="choose_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="please_fill_the_details" translatable="false">ਕਿਰਪਾ ਕਰਕੇ ਵੇਰਵੇ ਭਰੋ</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">ਲੋਗਿਨ ਅਸਫਲ ਹੋਇਆ ਕਿਉਂਕਿ ਤੁਸੀਂ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹੋ: %1$s</string>
+    <string name="login_successfully" translatable="false">ਸਫਲਤਾਪੂਰਵਕ ਲਾਗਿਨ</string>
+    <string name="ok" translatable="false">ਠੀਕ ਹੈ</string>
+    <string name="login_failed" translatable="false">ਲੋਗਿਨ ਅਸਫਲ: %1$s</string>
+    <string name="failed" translatable="false">ਅਸਫਲ</string>
+    <string name="users" translatable="false">ਉਪਭੋਗਤਾ</string>
+    <string name="notess" translatable="false">ਨੋਟਸ</string>
+    <string name="failed_to_load_notes" translatable="false">ਕੰਮ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।</string>
+    <string name="confirm_deletion" translatable="false">ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">ਕੀ ਤੁਸੀਂ ਇਸ ਕੰਮ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="delete" translatable="false">ਮਿਟਾਓ</string>
+    <string name="note_deleted_successfully" translatable="false">ਕੰਮ ਸਫਲਤਾਪੂਰਵਕ ਮਿਟਾਇਆ ਗਿਆ</string>
+    <string name="failed_to_delete_note" translatable="false">ਕੰਮ ਮਿਟਾਉਣ ਵਿੱਚ ਅਸਫਲ।</string>
+    <string name="note_does_not_exist" translatable="false">ਕੰਮ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।</string>
+    <string name="failed_to_fetch_note_details" translatable="false">ਕੰਮ ਵੇਰਵੇ ਲੱਭਣ ਵਿੱਚ ਅਸਫਲ।</string>
+    <string name="update_notes" translatable="false">ਕੰਮ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="update" translatable="false">ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="note_addition_failed" translatable="false">ਕੰਮ ਸ਼ਾਮਿਲ ਕਰਨ ਵਿੱਚ ਅਸਫਲ</string>
+    <string name="note_added_successfully" translatable="false">ਕੰਮ ਸਫਲਤਾਪੂਰਵਕ ਸ਼ਾਮਿਲ ਕੀਤਾ ਗਿਆ</string>
+    <string name="fill_all_fields" translatable="false">ਸਾਰੇ ਖੇਤਰ ਭਰੋ</string>
+    <string name="cancel" translatable="false">ਰੱਦ ਕਰੋ</string>
+    <string name="create" translatable="false">ਬਣਾਓ</string>
+    <string name="create_notes" translatable="false">ਕੰਮ ਬਣਾਓ</string>
+    <string name="note_update_failed" translatable="false">ਕੰਮ ਅਪਡੇਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ</string>
+    <string name="note_update_successfully" translatable="false">ਕੰਮ ਸਫਲਤਾਪੂਰਵਕ ਅਪਡੇਟ ਕੀਤਾ ਗਿਆ</string>
+    <string name="share_via" translatable="false">ਸ਼ੇਅਰ ਕਰੋ</string>
+    <string name="share_content" translatable="false">ਕੰਮ ID: %1$s\nਸ਼ੀਰਸ਼ਕ: %2$s\nਵੇਰਵਾ: %3$s</string>
+    <string name="no" translatable="false">ਨਹੀਂ</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">ਕੁਝ ਖੇਤਰ ਖਾਲੀ ਹਨ, ਕਿਰਪਾ ਕਰਕੇ ਭਰੋ!</string>
+    <string name="both_password_must_be_same" translatable="false">ਦੋਨੋ ਪਾਸਵਰਡ ਇਕੋ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ</string>
+    <string name="register_successfully" translatable="false">ਸਫਲਤਾਪੂਰਵਕ ਰਜਿਸਟਰ ਹੋਇਆ</string>
+    <string name="registration_failed" translatable="false">ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਅਸਫਲ: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">ਕੀ ਤੁਸੀਂ ਲਾਗ ਆਊਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="yes" translatable="false">ਹਾਂ</string>
+</resources>

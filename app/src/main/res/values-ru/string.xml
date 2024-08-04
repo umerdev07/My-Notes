@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Мои Задачи</string>
+    <string name="sign_in">Войти</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="do_you_forget_your_password">Забыли пароль?</string>
+    <string name="login">Вход</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="your_e_mail">Ваш e-mail</string>
+    <string name="re_password">Повторите пароль</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="default_web_client_id" translatable="false">94325085185-ce0messabcg0d9rt1k6tto2kt24o8qq3.apps.googleusercontent.com</string>
+    <string name="title">Название</string>
+    <string name="description">Описание</string>
+    <string name="log_out">Выход</string>
+    <string name="update_note">Обновить заметку:</string>
+    <string name="my">Мои</string>
+    <string name="notes">Задачи</string>
+    <string name="plain_your_life">Планируйте свою жизнь</string>
+    <string name="my_notes">Мои Задачи</string>
+    <string name="no_notes">Нет задач</string>
+    <string name="search_notes">Искать задачи</string>
+    <string name="search_note">Искать задачи...</string>
+    <string name="languages">Языки</string>
+    <string name="country">Страна</string>
+    <string name="symbol">Символ</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="please_fill_the_details" translatable="false">Пожалуйста, заполните данные</string>
+    <string name="failed_to_login_because_you_are_not_registered" tools:ignore="MissingTranslation">Не удалось войти, так как вы не зарегистрированы: %1$s</string>
+    <string name="login_successfully" translatable="false">Успешный вход</string>
+    <string name="ok" translatable="false">ОК</string>
+    <string name="login_failed" translatable="false">Не удалось войти: %1$s</string>
+    <string name="failed" translatable="false">Не удалось</string>
+    <string name="users" translatable="false">пользователи</string>
+    <string name="notess" translatable="false">заметки</string>
+    <string name="failed_to_load_notes" translatable="false">Не удалось загрузить задачи.</string>
+    <string name="confirm_deletion" translatable="false">Подтвердите удаление</string>
+    <string name="do_you_want_to_delete_this_note" translatable="false">Вы хотите удалить эту задачу?</string>
+    <string name="delete" translatable="false">Удалить</string>
+    <string name="note_deleted_successfully" translatable="false">Задача успешно удалена</string>
+    <string name="failed_to_delete_note" translatable="false">Не удалось удалить задачу.</string>
+    <string name="note_does_not_exist" translatable="false">Задача не существует.</string>
+    <string name="failed_to_fetch_note_details" translatable="false">Не удалось получить детали задачи.</string>
+    <string name="update_notes" translatable="false">Обновить задачу</string>
+    <string name="update" translatable="false">Обновить</string>
+    <string name="note_addition_failed" translatable="false">Не удалось добавить задачу</string>
+    <string name="note_added_successfully" translatable="false">Задача успешно добавлена</string>
+    <string name="fill_all_fields" translatable="false">Заполните все поля</string>
+    <string name="cancel" translatable="false">Отмена</string>
+    <string name="create" translatable="false">Создать</string>
+    <string name="create_notes" translatable="false">Создать задачу</string>
+    <string name="note_update_failed" translatable="false">Не удалось обновить задачу</string>
+    <string name="note_update_successfully" translatable="false">Задача успешно обновлена</string>
+    <string name="share_via" translatable="false">Поделиться через</string>
+    <string name="share_content" translatable="false">ID задачи: %1$s\nНазвание: %2$s\nОписание: %3$s</string>
+    <string name="no" translatable="false">Нет</string>
+    <string name="some_fields_is_empty_please_fill_it" translatable="false">Некоторые поля пусты, пожалуйста, заполните их!</string>
+    <string name="both_password_must_be_same" translatable="false">Оба пароля должны совпадать</string>
+    <string name="register_successfully" translatable="false">Успешная регистрация</string>
+    <string name="registration_failed" translatable="false">Ошибка регистрации: %1$s</string>
+    <string name="do_you_want_to_logout" translatable="false">Вы хотите выйти?</string>
+    <string name="yes" translatable="false">Да</string>
+</resources>
