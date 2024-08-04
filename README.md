@@ -1,58 +1,73 @@
 
-# Login-App
+# My-Todo
 
-Login-App is a simple Android application that demonstrates user authentication using Firebase Authentication.
+## Overview
+
+The My-Todo app is an Android application that allows users to create, view, update, and delete tasks, with Firebase Authentication for secure login and Google Sign-In integration. Users can manage their tasks, search through them, and customize the app's language and logout settings.
 
 ## Features
 
-- **Firebase Authentication**: Utilizes Firebase Authentication for secure user login and registration.
-- **Email/Password Authentication**: Allows users to sign up and sign in using their email address and password.
-- **User Management**: Handles user authentication lifecycle, including account creation, login, and logout.
-- **Error Handling**: Provides user-friendly error messages for failed authentication attempts.
-- **Secure Authentication**: Ensures secure authentication practices using Firebase's backend services.
-- **Minimalist UI**: Simple and intuitive user interface for seamless user experience.
+### Authentication
+- **Email/Password Authentication**: Users can sign in using their email and password.
+- **Google Sign-In**: Users can authenticate using their Google account.
 
-## Firebase Authentication Concepts
+### Task Management
+- **Create Tasks**: Users can create new tasks with a title, description, and date-time.
+- **Update Tasks**: Users can update the title, description, and date-time of existing tasks.
+- **Delete Tasks**: Users can delete tasks.
+- **Share Tasks**: Users can share tasks via text.
+  
+### Search
+- **Search Tasks**: Users can search for tasks by title or description using a search bar.
+  
+### Calendar and Time Picker
+- **Date and Time Selection**: Users can pick a date and time for tasks using a calendar and time picker dialog.
 
-### Secure User Authentication
+### Multi-language Support
+- **Language Selection**: Users can select from a variety of languages.
 
-Firebase Authentication offers a robust backend infrastructure for authenticating users securely. It supports various authentication methods such as email/password, phone number, Google sign-in, and more.
+## Dependencies
 
-### Real-time User Management
+    // Firebase BoM for managing Firebase library versions
+    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
 
-The SDK provides real-time monitoring of authentication states, allowing seamless integration of features like automatic login persistence and session management.
+    // Firebase Authentication library
+    implementation("com.google.firebase:firebase-auth-ktx")
 
-### Error Handling and Security
+    // Google Play services for authentication
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
 
-Firebase Authentication includes built-in mechanisms for handling common authentication errors, ensuring secure practices like password hashing and protection against brute-force attacks.
+    // Material Design library
+    implementation("com.google.android.material:material:1.12.0")
+
+    // Firebase Realtime Database
+    implementation("com.google.firebase:firebase-database:21.0.0")
 
 ## Usage
 
-### Getting Started
+### Authentication
+1. **Email/Password Sign-In**: Enter your email and password to sign in.
+2. **Google Sign-In**: Click the "Sign in with Google" button and follow the prompts.
 
-1. **Clone the Repository**: Clone the repository from GitHub to your local machine.
+### Task Management
+1. **Creating Tasks**: Click the "Create Task" button, enter the title, description, and select a date-time, then save the task.
+2. **Updating Tasks**: Click the "Update" button on a task, modify the title, description, or date-time, and save changes.
+3. **Deleting Tasks**: Click the "Delete" button on a task and confirm the deletion.
+4. **Sharing Tasks**: Click the "Share" button to share the task via text.
 
-   ```bash
-   $ git clone https://github.com/your-username/Login-App.git
-   ```
+### Search
+1. **Searching Tasks**: Use the search bar to find tasks by title or description. Enter keywords to filter the task list accordingly.
 
-2. **Set Up Firebase Project**:
-   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/).
-   - Add an Android app to your Firebase project using your package name (`com.yourcompany.loginapp`).
-   - Download the `google-services.json` file and place it in the `app/` directory of your project.
+### Calendar and Time Picker
+- Use the calendar and time picker dialogs to select date and time when creating or updating tasks.
 
-3. **Run the Application**: Build and run the application on an Android device or emulator.
+### Multi-language Support
+- Click the "Menu" button, select "Language", and choose your preferred language.
 
-### Using the App
+## Screenshots
 
-1. **Sign Up**: Create a new account using your email address and password.
-2. **Sign In**: Log in to the app using your registered email address and password.
-3. **Logout**: Log out from the app to end the current session securely.
-4. **Error Handling**: Experience user-friendly error messages for invalid login attempts or network issues.
+Include screenshots of the app here.
 
-### Contributing
+## Contributing
 
-Contributions to improve or extend the app's functionality are welcome! Follow standard GitHub practices to contribute via pull requests.
-
-
-This structure provides detailed information about the features of your "Login-App" and educates users on important Firebase Authentication concepts and usage scenarios. Adjust the placeholders (`your-username`, `com.yourcompany.loginapp`, etc.) with your actual project details for clarity and accuracy.
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
