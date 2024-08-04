@@ -86,7 +86,7 @@
         android:fontFamily="@font/akaya_telivigala"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Sign-Up"
+        android:text="@string/sign_up"
         android:textColor="@color/white"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"

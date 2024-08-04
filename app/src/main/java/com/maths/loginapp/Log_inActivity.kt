@@ -42,9 +42,6 @@ private val binding : ActivityLogInBinding by lazy {
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
         binding.googlebtn.setOnClickListener{
-//            val progressBar1 = findViewById<View>(R.id.spin_kit1) as ProgressBar
-//            val RotatingPlane: Sprite = RotatingPlane()
-//            progressBar1.indeterminateDrawable = RotatingPlane
 
             val signInIntent = googleSignInClient.signInIntent
             launcher.launch(signInIntent)
@@ -58,16 +55,21 @@ private val binding : ActivityLogInBinding by lazy {
             val pass = binding.password.text.toString()
 
             if(useremail.isEmpty() || pass.isEmpty()){
-                showAlertDialog("Please Fill the Details")
+                showAlertDialog(getString(R.string.please_fill_the_details))
             }else{
                 auth.signInWithEmailAndPassword(useremail , pass)
                     .addOnCompleteListener(this) {task ->
                         if(task.isSuccessful){
-                            Toast.makeText(this, "Login Successfully", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this,
+                                getString(R.string.login_successfully), Toast.LENGTH_SHORT).show()
                             startActivity(Intent(this , MainActivity::class.java))
                             finish()
                         }else{
-                            showAlertDialog("Failed to Login Because you are not registered: ${task.exception?.message}")
+                            showAlertDialog(
+                                getString(
+                                    R.string.failed_to_login_because_you_are_not_registered,
+                                    task.exception?.message
+                                ))
                         }
                     }
             }
@@ -78,7 +80,7 @@ private val binding : ActivityLogInBinding by lazy {
         builder.setMessage(message)
 
             .setCancelable(true)
-            .setPositiveButton("OK") { dialog, _ ->
+            .setPositiveButton(getString(R.string.ok)) { dialog, _ ->
                 dialog.dismiss()
             }
 
@@ -89,7 +91,7 @@ private val binding : ActivityLogInBinding by lazy {
     {
             result ->
 
-        if(result.resultCode== Activity.RESULT_OK)
+        if(result.resultCode== RESULT_OK)
         {
             val task = GoogleSignIn.getSignedInAccountFromIntent(result.data)
             if(task.isSuccessful){
@@ -97,15 +99,16 @@ private val binding : ActivityLogInBinding by lazy {
                 val credentials = GoogleAuthProvider.getCredential(account?.idToken,null)
                 auth.signInWithCredential(credentials).addOnCompleteListener {
                     if(it.isSuccessful){
-                        Toast.makeText(this, "Login Successfully", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, getString(R.string.login_successfully), Toast.LENGTH_SHORT).show()
                         startActivity(Intent(this , MainActivity::class.java))
                     }else{
-                        Toast.makeText(this, "Login Failed: ${task.exception?.message}", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this,
+                            getString(R.string.login_failed, task.exception?.message), Toast.LENGTH_LONG).show()
                     }
                 }
             }
         }else{
-            Toast.makeText(this, "Failed", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.failed), Toast.LENGTH_SHORT).show()
         }
     }
 }

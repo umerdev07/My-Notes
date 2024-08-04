@@ -38,18 +38,23 @@ class SiignupActivity : AppCompatActivity() {
             // CHECK IF ANY FIELD IS BLANK
 
             if(email.isEmpty() || username.isEmpty() || pass.isEmpty() || re_pass.isEmpty()){
-                showAlertDialog("Some fields is Empty Please fill it!")
+                showAlertDialog(getString(R.string.some_fields_is_empty_please_fill_it))
             }else if(pass != re_pass){
-                showAlertDialog("Both Password must be Same")
+                showAlertDialog(getString(R.string.both_password_must_be_same))
             }else{
                 auth.createUserWithEmailAndPassword(email , pass)
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
-                            Toast.makeText(this, "Register Successfully", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this,
+                                getString(R.string.register_successfully), Toast.LENGTH_SHORT).show()
                             startActivity(Intent(this , Log_inActivity::class.java))
                             finish()
                         }else{
-                            showAlertDialog("Registration Failed : ${task.exception?.message}")
+                            showAlertDialog(
+                                getString(
+                                    R.string.registration_failed,
+                                    task.exception?.message
+                                ))
                         }
                     }
             }
@@ -60,7 +65,7 @@ class SiignupActivity : AppCompatActivity() {
         builder.setMessage(message)
 
             .setCancelable(true)
-            .setPositiveButton("OK") { dialog, _ ->
+            .setPositiveButton(getString(R.string.ok)) { dialog, _ ->
                 dialog.dismiss()
             }
 

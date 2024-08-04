@@ -9,42 +9,67 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="392dp"
+        android:layout_height="230dp"
+        android:layout_margin="5dp"
         android:elevation="6dp"
         android:padding="20dp"
-        android:layout_margin="5dp"
         app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/calenderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/calender"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/newdescription"
+            app:layout_constraintVertical_bias="0.697" />
+
+        <ImageView
+            android:id="@+id/calender"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/calendar"
+            android:backgroundTint="@color/darkred"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/newdescription"
+            app:layout_constraintVertical_bias="0.562" />
 
         <EditText
             android:id="@+id/newtitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/roundsearch"
             android:foregroundGravity="left"
-            android:gravity="left"
+            android:gravity="left|center"
             android:hint="@string/title"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="15dp"
             android:textColor="@color/red"
             android:textColorHint="@color/red"
-            android:textSize="20sp"
+            android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/newdescription"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundsearch"
+            android:gravity="left|center"
             android:hint="@string/description"
             android:inputType="text"
-            android:padding="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:padding="15dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:textSize="18sp"
